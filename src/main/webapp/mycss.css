@@ -1,0 +1,163 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+.message{
+
+	color:blue;
+}
+
+.clicker{
+	color:red;
+}
+
+
+
+body {
+	
+	background-color:#D04571;
+
+
+}
+
+#title1  {
+	position: relative;
+  left:70px;
+  top:410px;
+   float: left;
+}
+
+#blog1  {
+  
+  color: blue;
+  position: relative;
+  
+    left:280px;
+    top: 410px;
+    font-size: 17px;
+}  
+
+
+
+
+
+ li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+ li:hover {
+    background-color: #0099cc;
+    cursor: pointer;
+}
+
+#table1div{
+	margin: auto;
+  border: none;
+  position: fixed;
+  
+    left: 200px;
+    top: 260px;
+}
+
+#blog1 #t3 {color:#D3cee3;} 
+ #blog1 #t2 {color:#D3cee3;}
+ #blog1 #t1{color:#D3cee3;}
+
+.btn1{
+
+cursor: pointer;
+position: relative;
+    left: 380px;  
+     padding: 15px 20px;
+}
+
+.Heading1{
+color: #D3cee3;
+ position: relative;
+    left: 430px;
+    font-size:50px
+     height: 40px;
+    width: 400px;
+
+}
+
+
+
+#showhidecmt .postbtns11 {
+
+  
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
+
+#showhidecmt .postbtns12 {
+ 
+  
+  position: absolute;
+  bottom: 10px;
+  left: 170px;
+}
+
+
+#adddeletepost .postbtns21{
+
+position: absolute;
+  bottom: 10px;
+  left: 290px;
+
+}
+
+
+#adddeletepost .postbtns22{
+
+
+position: absolute;
+  bottom: 10px;
+  left: 370px;
+
+}
+
+
+#adddeletepost .boxsave{
+
+
+position: absolute;
+  bottom: 30px;
+  left: 370px;
+
+}
+
+#searchmain1{
+
+ position: relative;
+    left: 300px;  
+        height: 40px;
+    width: 400px;
+}
+
+
+
+.box {
+
+  position: absolute;
+  left:250px;
+  bottom: 80px;
+}
+
+
+#logintitle2{
+position: absolute;
+top:200px;
+left: 12px
+}
+
+#loginblog2{
+position: absolute;
+top:200px;
+left: 250px;
+color:#D3cee3;
+}
