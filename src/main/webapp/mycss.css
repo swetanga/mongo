@@ -23,19 +23,11 @@ body {
 #title1  {
 	position: relative;
   left:70px;
-  top:410px;
+  top:15px;
    float: left;
 }
 
-#blog1  {
-  
-  color: blue;
-  position: relative;
-  
-    left:280px;
-    top: 410px;
-    font-size: 17px;
-}  
+
 
 
 
@@ -56,10 +48,10 @@ body {
 #table1div{
 	margin: auto;
   border: none;
-  position: fixed;
+  position: relative;
   
-    left: 200px;
-    top: 260px;
+    left: 180px;
+    top: 1px;
 }
 
 #blog1 #t3 {color:#D3cee3;} 
@@ -77,13 +69,21 @@ position: relative;
 .Heading1{
 color: #D3cee3;
  position: relative;
-    left: 430px;
-    font-size:50px
+    left: 380px;
+    font-size:40px;
      height: 40px;
     width: 400px;
 
 }
 
+
+.postbtns11 , .postbtns12, .postbtns21 , .postbtns22 , .deluserclass{
+
+   color: #ee115F;
+  background-color: #389feb;
+  font-weight: bold;
+
+}
 
 
 #showhidecmt .postbtns11 {
@@ -122,12 +122,22 @@ position: absolute;
 }
 
 
+#adddeletepost .deluserclass{
+
+
+position: absolute;
+  bottom: 10px;
+  left: 460px;
+
+}
+
+
 #adddeletepost .boxsave{
 
 
 position: absolute;
   bottom: 30px;
-  left: 370px;
+  left: 40px;
 
 }
 
@@ -146,6 +156,10 @@ position: absolute;
   position: absolute;
   left:250px;
   bottom: 80px;
+
+height:120px;width:660px;border:none;
+font:16px/26px Georgia, Garamond, Serif;
+overflow:auto;
 }
 
 
@@ -160,4 +174,89 @@ position: absolute;
 top:200px;
 left: 250px;
 color:#D3cee3;
+}
+
+.cross {
+  color: #fefa64;
+}
+
+
+
+.addcmt .cmtbtn21{
+
+  position: absolute;
+  bottom: -5px;
+  left:20px;
+  margin-right: 5px;
+   
+   background-color:#77bfea;
+      -moz-border-radius:18px;
+      -webkit-border-radius:18px;
+      border-radius:18px;
+      border:2px solid #18ab29;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Courier;
+      font-size:17px;
+      font-weight:bold;
+      padding:5px 3px;
+      text-decoration:none;
+      text-shadow:0px -1px 8px #2f6627;
+  
+}
+
+.addcmt .cmtbtn22{
+
+  position: absolute;
+  bottom: -5px;
+  left:150px;
+  margin-left: 5px;
+
+  background-color:#77bfea;
+      -moz-border-radius:18px;
+      -webkit-border-radius:18px;
+      border-radius:18px;
+      border:2px solid #18ab29;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Courier;
+      font-size:17px;
+      font-weight:bold;
+      padding:5px 3px;
+      text-decoration:none;
+      text-shadow:0px -1px 8px #2f6627;
+  
+}
+
+#blog1  {
+  
+  color: blue;
+  position: relative;
+  
+    left:210px;
+    top: 15px;
+    font-size: 17px;
+}  
+
+
+.addcmt .box44cmt{
+
+ position: absolute;
+  left:315px;
+  bottom: 75px;
+
+height:120px;width:700px;
+border:none;
+font:16px/26px Georgia, Garamond, Serif;
+overflow:auto;
+  
+}
+
+.addcmt #addcommentForm{
+position: absolute;
+  left:10px;
+  bottom: 75px;
+
 }
